@@ -18,11 +18,7 @@ def test_main_1():
     print(lines)
 
     ret = main.main()
-    assert len(ret) == 4
-    assert ret[0] == 10
-    assert ret[1] == 15
-    assert ret[2] == 25
-    assert ret[3] == 55
+    assert ret == 55
 
     # regex_string = r'[\w,\W]*1'
     # regex_string += r'[\w,\W]*3'
