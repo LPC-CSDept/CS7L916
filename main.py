@@ -8,12 +8,6 @@ def getMaxSum(numbers):
     Code Your Program here
     ########################################
     """
-    maxsum = lambda x, y: x + max(y)
-    # maxsum = lambda x, y: x + y
-
-    # ret = reduce(maxsum, map(max, numbers))
-    ret = reduce(maxsum, numbers, 0)
-    return ret
 
 
 def main():
